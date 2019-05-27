@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/itSearch"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:title="@string/title_Search"
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/itGioHang"
+        android:icon="@drawable/ic_shopping_cart_white_24dp"
+        android:title="@string/title_Shopping_Cart"
+        app:actionLayout="@layout/custom_item_giohang"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_more_vert_white_24dp"
+        android:title="@string/it_more_opption"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/itDangnhap"
+                android:title="@string/itDangnhap"
+                android:icon="@drawable/baseline_sentiment_satisfied_alt_black_24dp"
+                />
+            <item
+                android:id="@+id/itThongBao"
+                android:title="@string/itThongBao"
+                android:icon="@drawable/ic_notifications_none_black_24dp"
+                />
+            <item
+                android:id="@+id/itMongMuon"
+                android:title="@string/itMongMuon"
+                android:icon="@drawable/ic_favorite_border_black_24dp"
+                />
+            <item
+                android:id="@+id/itDonHangCuaToi"
+                android:title="@string/itDonHangCuaToi"
+                android:icon="@drawable/ic_content_paste_black_24dp"
+                />
+            <item
+                android:id="@+id/itCaiDat"
+                android:title="@string/itCaiDat"
+                android:icon="@drawable/ic_settings_black_24dp"
+                />
+
+            <item
+                android:id="@+id/itChinhSach"
+                android:title="@string/itChinhSach"
+                android:icon="@drawable/ic_event_note_black_24dp"
+                />
+            <item
+                android:id="@+id/itTroGiup"
+                android:title="@string/itTroGiup"
+                android:icon="@drawable/ic_help_outline_black_24dp"
+                />
+            <item
+                android:id="@+id/itDangXuat"
+                android:title="@string/itDangXuat"
+                android:icon="@drawable/ic_logout"
+                android:visible="false"
+                />
+
+        </menu>
+    </item>
+</menu>

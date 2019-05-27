@@ -1,0 +1,44 @@
+<resources>
+    <!-- Màng hình chào-->
+    <string name="app_name">AppLazada</string>
+    <string name="flashScreen_txtThegioimuasam">Thế giới mua sắm trong tầm tay bạn</string>
+    <string name="flashScreen_txt100Baovenguoidung">100% Bảo vệ người tiêu dùng</string>
+    <string name="flashScreen_txtGiaohangtannoi">Giao hàng tận nơi + thanh toán dễ dàng</string>
+
+    <!-- Trang chủ / Toolbar -->
+    <string name="title_Search">Tìm kiếm</string>
+    <string name="title_Shopping_Cart">Giỏ hàng</string>
+
+    <!-- Trang chủ / Search bar -->
+    <string name="hint_Search_Bar">Tìm kiếm trên Lazada</string>
+    <!-- Trang chủ / Search bar -->
+    <string name="it_more_opption">Tìm kiếm trên Lazada</string>
+    <string name="itDangnhap">Đăng nhập</string>
+    <string name="itThongBao">Thông báo</string>
+    <string name="itMongMuon">Danh sách mong muốn</string>
+    <string name="itDonHangCuaToi">Đơn hàng của tôi</string>
+    <string name="itCaiDat">Cài đặt</string>
+    <string name="itChinhSach">Chính sách</string>
+    <string name="itTroGiup">Trợ giúp</string>
+    <string name="itDangXuat">Đăng xuất</string>
+
+
+    <!-- DrawerLayout / ActionBarDrawerToggle-->
+    <string name="open">Mở</string>
+    <string name="close">Đóng</string>
+    <!-- Đăng nhập bằng Facebook/Google+ -->
+    <string name="facebook_app_id">224724611778886</string>
+    <string name="fb_login_protocol_scheme">fb224724611778886</string>
+    <string name="google_plus_client">248971269184-sa6dbb3gfnnjf5skm174e5v59ujhifpq.apps.googleusercontent.com</string>
+    <!-- LAYOUT ĐĂNG KÝ -->
+    <string name="tv_dk_candientatcacacmuc">Cần điền tất cả các mục</string>
+    <string name="ed_HoTenDK">Họ tên đầy đủ</string>
+    <string name="ed_DiachiEmailDK">Địa chỉ email</string>
+    <string name="ed_MatKhauDK">Mật khẩu</string>
+    <string name="ed_NhapLaiMatKhauDK">Nhập lại mật khẩu</string>
+    <string name="tv_dk_matkhau6kitu">Mật khẩu phải bao gồm 6 ký tự và 1 chữ hoa</string>
+    <string name="switch_dk">Tôi muốn nhận các khuyến mãi độc quyền qua email</string>
+    <string name="tv_dk_dieukhoanbaomat">Chúng tôi đã hiểu rõ các điều khoản bảo mật của Lazada</string>
+    <string name="btn_Dangky">Đăng ký</string>
+
+</resources>

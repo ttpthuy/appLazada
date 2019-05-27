@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_scrollFlags="scroll|enterAlways" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="@color/colorWhite">
+
+                <Button
+                    android:id="@+id/btnLocDanhMuc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@color/colorWhite"
+                    android:drawableLeft="@drawable/filter"
+                    android:gravity="center"
+                    android:text="Lọc"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorToolbar" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="@color/colorWhite">
+
+                <Button
+                    android:id="@+id/btnSapXepDanhMuc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@color/colorWhite"
+                    android:drawableLeft="@drawable/ic_swap_vert_black_24dp"
+                    android:gravity="center"
+                    android:text="Sắp xếp"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorToolbar" />
+            </FrameLayout>
+
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/size10dp"
+                android:layout_marginTop="@dimen/size10dp"
+                android:background="@color/colorToolbar" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:background="@color/colorWhite">
+
+                <Button
+                    android:id="@+id/btnThayDoiTrangThaiRecycler"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="3"
+                    android:background="@color/colorWhite"
+                    android:drawableLeft="@drawable/ic_view_list_black_24dp"
+                    android:gravity="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorToolbar" />
+            </FrameLayout>
+
+        </LinearLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycleViewHienThiSanPhamTheoDanhMuc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/size10dp"
+            android:layout_weight="1"
+            >
+
+        </android.support.v7.widget.RecyclerView>
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_marginTop="@dimen/size10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:indeterminate="true"
+            android:layout_below="@id/recycleViewHienThiSanPhamTheoDanhMuc"
+            android:visibility="gone"
+            />
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Màn hình chào -->
+    <dimen name="flashScreen_paddingTop">50dp</dimen>
+    <dimen name="flashScreen_imageview_paddingTop">30dp</dimen>
+    <dimen name="flashScreen_paddingRight">100dp</dimen>
+    <dimen name="flashScreen_paddingLeft">100dp</dimen>
+    <dimen name="flashScreen_textSize">21sp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Trang chủ / Toolbar / Cart -->
+    <dimen name="textSize10sp">10sp</dimen>
+    <dimen name="toolbar_cart_size10dp">5dp</dimen>
+
+    <!-- Trang chủ / Search bar -->
+    <dimen name="size10dp">10dp</dimen>
+
+</resources>
